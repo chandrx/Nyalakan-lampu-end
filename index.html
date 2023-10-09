@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <title>cetrak cetrek lampu</title>
+        <link rel="stylesheet" href="global.css"/>
+    </head>
+    <body>
+
+
+    <div class="bar-top"></div>
+    <div class="bar-bottom"></div>
+    <div class="bar-left"></div>
+    <div class="bar-right"></div>
+
+
+    <div class="container" id="top">
+      <div class="content" onclick="handleClick('top')">
+      <h1>scrool to bottom</h1>
+      </div>
+  </div>
+
+
+      <div class="flex justify-center items-center min-h-screen w-full bg-red-500 gap-3">  
+        <!--lampu 1-->
+        <div class="flex flex-col gap-2 items-center">
+
+         <img src="assets/images/lampu-mati.png" alt="" id="lampu1" width="300" height="300"/>
+
+         <label for="AcceptConditions1" class="relative h-8 w-14 cursor-pointer">
+          <input type="checkbox" id="AcceptConditions1" class="peer sr-only" onchange="saklar()"/>
+
+        <span class="absolute inset-0 rounded-full bg-gray-300 transition peer-checked:bg-blue-500 ">
+        </span>
+
+         <span class="absolute inset-y-0 start-0 m-1 h-6 w-6 rounded-full bg-white transition-all peer-checked:start-6">
+         </span>
+         </label>
+
+        </div>
+
+         <!--lampu 2-->
+         <div class="flex flex-col gap-2 items-center" >
+
+            <img src="assets/images/lampu-mati.png" alt="" id="lampu2" width="300" height="300" />
+            <label for="AcceptConditions2" class="relative h-8 w-14 cursor-pointer">
+              <input type="checkbox" id="AcceptConditions2" class="peer sr-only" onchange="saklar()"/>
+    
+            <span class="absolute inset-0 rounded-full bg-gray-300 transition peer-checked:bg-blue-500">
+            </span>
+    
+             <span class="absolute inset-y-0 start-0 m-1 h-6 w-6 rounded-full bg-white transition-all peer-checked:start-6">
+             </span>
+             </label>
+   
+        </div>
+
+         <!--lampu 3-->
+         <div class="flex flex-col gap-2 items-center">
+
+            <img src="assets/images/lampu-mati.png" alt="" id="lampu3" width="300" height="300"/>
+            <label for="AcceptConditions3" class="relative h-8 w-14 cursor-pointer">
+              <input type="checkbox" id="AcceptConditions3" class="peer sr-only" onchange="saklar()"/>
+    
+            <span class="absolute inset-0 rounded-full bg-gray-300 transition peer-checked:bg-blue-500">
+            </span>
+    
+             <span class="absolute inset-y-0 start-0 m-1 h-6 w-6 rounded-full bg-white transition-all peer-checked:start-6">
+             </span>
+             </label>
+        </div>
+      </div> 
+
+
+
+      <div class="flex justify-center items-center min-h-screen w-full bg-blue-500 gap-3">   
+        <!--lampu 4-->
+        <div class="flex flex-col gap-2 items-center">
+
+         <img src="assets/images/lampu-mati.png" alt="" id="lampu4" width="200" height="300"/>
+
+         <label for="AcceptConditions4" class="relative h-8 w-14 cursor-pointer">
+          <input type="checkbox" id="AcceptConditions4" class="peer sr-only" onchange="saklar()"/>
+
+        <span class="absolute inset-0 rounded-full bg-gray-300 transition peer-checked:bg-blue-500 ">
+        </span>
+
+         <span class="absolute inset-y-0 start-0 m-1 h-6 w-6 rounded-full bg-white transition-all peer-checked:start-6">
+         </span>
+         </label>
+
+        </div>
+      </div>
+
+
+
+      <div class="flex justify-center items-center min-h-screen w-full bg-yellow-300 gap-20">   
+        <!--lampu 5-->
+        <div class="flex flex-col gap-2 items-center">
+
+         <img src="assets/images/lampu-mati.png" alt="" id="lampu5" width="300" height="300"/>
+
+         <label for="AcceptConditions5" class="relative h-8 w-14 cursor-pointer">
+          <input type="checkbox" id="AcceptConditions5" class="peer sr-only" onchange="saklar()"/>
+
+        <span class="absolute inset-0 rounded-full bg-gray-300 transition peer-checked:bg-blue-500 ">
+        </span>
+
+         <span class="absolute inset-y-0 start-0 m-1 h-6 w-6 rounded-full bg-white transition-all peer-checked:start-6">
+         </span>
+         </label>
+
+        </div>
+
+         <!--lampu 6-->
+         <div class="flex flex-col gap-2 items-center" >
+
+            <img src="assets/images/lampu-mati.png" alt="" id="lampu6" width="300" height="300" />
+            <label for="AcceptConditions6" class="relative h-8 w-14 cursor-pointer">
+              <input type="checkbox" id="AcceptConditions6" class="peer sr-only" onchange="saklar()"/>
+    
+            <span class="absolute inset-0 rounded-full bg-gray-300 transition peer-checked:bg-blue-500">
+            </span>
+    
+             <span class="absolute inset-y-0 start-0 m-1 h-6 w-6 rounded-full bg-white transition-all peer-checked:start-6">
+             </span>
+             </label>
+        </div>
+      </div>
+
+
+      <div class="flex justify-center items-center min-h-screen w-full bg-red-200 gap-1">   
+        <!--lampu 7-->
+        <div class="flex flex-col gap-2 items-center">
+
+         <img src="assets/images/lampu-mati.png" alt="" id="lampu7" width="300" height="300"/>
+
+         <label for="AcceptConditions7" class="relative h-8 w-14 cursor-pointer">
+          <input type="checkbox" id="AcceptConditions7" class="peer sr-only" onchange="saklar()"/>
+
+        <span class="absolute inset-0 rounded-full bg-gray-300 transition peer-checked:bg-blue-500 ">
+        </span>
+
+         <span class="absolute inset-y-0 start-0 m-1 h-6 w-6 rounded-full bg-white transition-all peer-checked:start-6">
+         </span>
+         </label>
+
+        </div>
+
+         <!--lampu 8-->
+         <div class="flex flex-col gap-2 items-center" >
+
+            <img src="assets/images/lampu-mati.png" alt="" id="lampu8" width="300" height="300" />
+            <label for="AcceptConditions8" class="relative h-8 w-14 cursor-pointer">
+              <input type="checkbox" id="AcceptConditions8" class="peer sr-only" onchange="saklar()"/>
+    
+            <span class="absolute inset-0 rounded-full bg-gray-300 transition peer-checked:bg-blue-500">
+            </span>
+    
+             <span class="absolute inset-y-0 start-0 m-1 h-6 w-6 rounded-full bg-white transition-all peer-checked:start-6">
+             </span>
+             </label>
+   
+        </div>
+
+         <!--lampu 9-->
+         <div class="flex flex-col gap-2 items-center">
+
+            <img src="assets/images/lampu-mati.png" alt="" id="lampu9" width="300" height="300"/>
+            <label for="AcceptConditions9" class="relative h-8 w-14 cursor-pointer">
+              <input type="checkbox" id="AcceptConditions9" class="peer sr-only" onchange="saklar()"/>
+    
+            <span class="absolute inset-0 rounded-full bg-gray-300 transition peer-checked:bg-blue-500">
+            </span>
+    
+             <span class="absolute inset-y-0 start-0 m-1 h-6 w-6 rounded-full bg-white transition-all peer-checked:start-6">
+             </span>
+             </label>
+        </div>
+
+         <!--lampu 10-->
+         <div class="flex flex-col gap-2 items-center">
+
+          <img src="assets/images/lampu-mati.png" alt="" id="lampu10" width="300" height="300"/>
+          <label for="AcceptConditions10" class="relative h-8 w-14 cursor-pointer">
+            <input type="checkbox" id="AcceptConditions10" class="peer sr-only" onchange="saklar()"/>
+  
+          <span class="absolute inset-0 rounded-full bg-gray-300 transition peer-checked:bg-blue-500">
+          </span>
+  
+           <span class="absolute inset-y-0 start-0 m-1 h-6 w-6 rounded-full bg-white transition-all peer-checked:start-6">
+           </span>
+           </label>
+      </div>
+      </div> 
+
+
+      <div class="container" id="bottom">
+        <div class="content" onclick="handleClick('bottom')">
+        <h1>scrool to top</h1>
+        </div>
+    </div>
+
+        <script src="saklar.js" type="application/javascript"></script>
+    </body>
+</html>
